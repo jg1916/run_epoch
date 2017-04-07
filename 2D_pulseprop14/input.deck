@@ -1,0 +1,101 @@
+begin:constant
+  lambda0 = 0.8 * micron
+  I0 = 1.0e+15 * 1.0e4 # W/m^2
+  
+#Corresponding to a diameter at the accelerator exit D = 10.0 cm
+  wai = 5.0*micron
+  timefwhm = 20.0*femto
+
+# dimensions of the simulation box
+  xmin0 = -75 * micron
+  xmax0 = 100 * micron
+  ymin0 = -75 * micron
+  ymax0 = -ymin0
+
+# nx0 and ny0 are the number of grid points in each direction
+  nx0 = 2000
+  ny0 = 2000
+
+# distance from the focus to the boundary
+  xfoc = 1000 * micron
+  
+#   
+  tende =  750*femto
+
+  rayleigh_range = pi*wai^2/lambda0
+  wz = wai * sqrt(1 + ((-xfoc)/rayleigh_range)^2)
+  
+  radius_of_curv = (-xfoc) * (1.0+(rayleigh_range/(-xfoc))^2)
+  
+  timeomega = timefwhm /(2.0*sqrt(loge(2.0)))
+  timezeropoint = 2.5*timeomega
+  
+# peak intensity at focus
+  Ientry = I0*wai/wz
+# intensity where we enter the box
+  Eamp = sqrt(2*Ientry/(epsilon0*c))
+
+end:constant
+
+
+begin:laser
+  boundary = x_min
+  amp = Eamp
+  lambda = lambda0
+  phase = -2*pi/lambda0*(x + y^2/(2*radius_of_curv))# - 0.5*atan(x/rayleigh_range)
+  profile = gauss(y,0,wz)
+  t_profile = gauss(time,timezeropoint,timeomega)
+end:laser
+#begin:laser
+# boundary = x_min
+# intensity_w_cm2 = 1.0e15
+# lambda = lambda0 * cos(theta)
+# phase = -2.0 * pi * y * sin(theta) / lambda0
+# pol_angle = 0 # pi / 2.0
+# profile = gauss(y,0,4*micron)
+# t_profile = gauss(time,4*femto,6*femto)
+#end:laser
+
+
+begin:control
+ nx = nx0
+ ny = ny0
+ # final time of simulation
+ t_end = tende
+ # size of domain
+ x_min = xmin0
+ x_max = xmax0
+ y_min = ymin0
+ y_max = ymax0
+ stdout_frequency = 10
+end:control
+
+
+begin:boundaries
+ bc_x_min = simple_laser
+ bc_x_max = open
+ bc_y_min = periodic
+ bc_y_max = periodic
+end:boundaries
+
+begin:subset
+  name = field
+  skip = 4
+  E = ey
+end:subset
+
+
+begin:output
+ # number of timesteps between output dumps
+ dt_snapshot = 10 * femto
+
+ # Properties on grid
+ test = field
+ grid = always
+ ex = always
+ ey = always
+ ez = always
+ bx = always
+ by = always
+ bz = always
+end:output

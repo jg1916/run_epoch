@@ -1,0 +1,152 @@
+ EPOCH2D v4.8.3   v4.8.3-0-g826628c-dirty 1491417384.660               
+ 
+Deck state:  1
+ 
+ Beginning "constant" block
+ 
+ 	Element lambda0=0.8 * micron handled OK
+ 	Element I0=1.0e+15 * 1.0e4 handled OK
+ 	Element wai=25.0*micron handled OK
+ 	Element timefwhm=50.0*femto handled OK
+ 	Element xmin0=-75 * micron handled OK
+ 	Element xmax0=-xmin0 handled OK
+ 	Element ymin0=-75 * micron handled OK
+ 	Element ymax0=-ymin0 handled OK
+ 	Element nx0=2000 handled OK
+ 	Element ny0=2000 handled OK
+ 	Element xfoc=xmin0 handled OK
+ 	Element tende=500*femto handled OK
+ 	Element rayleigh_range=pi*wai^2/lambda0 handled OK
+ 	Element wz=wai * sqrt(1 + ((-xfoc)/rayleigh_range)^2) handled OK
+ 	Element radius_of_curv=(-xfoc) * (1.0+(rayleigh_range/(-xfoc))^2) handled OK
+ 	Element timeomega=timefwhm /(2.0*sqrt(loge(2.0))) handled OK
+ 	Element timezeropoint=2.5*timeomega handled OK
+ 	Element Ientry=I0*wai/wz handled OK
+ 	Element Eamp=sqrt(2*Ientry/(epsilon0*c)) handled OK
+ 
+ Ending "constant" block
+ 
+ Beginning "laser" block
+ 
+ 	Element boundary=x_min handled OK
+ 	Element amp=Eamp handled OK
+ 	Element lambda=lambda0 handled OK
+ 	Element phase=
+ -2*pi/lambda0*(x + y^2/(2*radius_of_curv)) - 0.5*atan(x/rayleigh_range)
+  handled OK
+ 	Element profile=gauss(y,0,wz) handled OK
+ 	Element t_profile=gauss(time,timezeropoint,timeomega) handled OK
+ 
+ Ending "laser" block
+ 
+ Beginning "control" block
+ 
+ 	Element nx=nx0 handled OK
+ 	Element ny=ny0 handled OK
+ 	Element t_end=tende handled OK
+ 	Element x_min=xmin0 handled OK
+ 	Element x_max=xmax0 handled OK
+ 	Element y_min=ymin0 handled OK
+ 	Element y_max=ymax0 handled OK
+ 	Element stdout_frequency=10 handled OK
+ 
+ Ending "control" block
+ 
+ Beginning "boundaries" block
+ 
+ 	Element bc_x_min=simple_laser handled OK
+ 	Element bc_x_max=open handled OK
+ 	Element bc_y_min=periodic handled OK
+ 	Element bc_y_max=periodic handled OK
+ 
+ Ending "boundaries" block
+ 
+ Beginning "output" block
+ 
+ 	Element dt_snapshot=10 * femto handled OK
+ 	Element grid=always handled OK
+ 	Element ex=always handled OK
+ 	Element ey=always handled OK
+ 	Element ez=always handled OK
+ 	Element bx=always handled OK
+ 	Element by=always handled OK
+ 	Element bz=always handled OK
+ 
+ Ending "output" block
+ 
+Deck state:  2
+ 
+ Beginning "constant" block
+ 
+ 	Element lambda0=0.8 * micron handled OK
+ 	Element I0=1.0e+15 * 1.0e4 handled OK
+ 	Element wai=25.0*micron handled OK
+ 	Element timefwhm=50.0*femto handled OK
+ 	Element xmin0=-75 * micron handled OK
+ 	Element xmax0=-xmin0 handled OK
+ 	Element ymin0=-75 * micron handled OK
+ 	Element ymax0=-ymin0 handled OK
+ 	Element nx0=2000 handled OK
+ 	Element ny0=2000 handled OK
+ 	Element xfoc=xmin0 handled OK
+ 	Element tende=500*femto handled OK
+ 	Element rayleigh_range=pi*wai^2/lambda0 handled OK
+ 	Element wz=wai * sqrt(1 + ((-xfoc)/rayleigh_range)^2) handled OK
+ 	Element radius_of_curv=(-xfoc) * (1.0+(rayleigh_range/(-xfoc))^2) handled OK
+ 	Element timeomega=timefwhm /(2.0*sqrt(loge(2.0))) handled OK
+ 	Element timezeropoint=2.5*timeomega handled OK
+ 	Element Ientry=I0*wai/wz handled OK
+ 	Element Eamp=sqrt(2*Ientry/(epsilon0*c)) handled OK
+ 
+ Ending "constant" block
+ 
+ Beginning "laser" block
+ 
+ 	Element boundary=x_min handled OK
+ 	Element amp=Eamp handled OK
+ 	Element lambda=lambda0 handled OK
+ 	Element phase=
+ -2*pi/lambda0*(x + y^2/(2*radius_of_curv)) - 0.5*atan(x/rayleigh_range)
+  handled OK
+ 	Element profile=gauss(y,0,wz) handled OK
+ 	Element t_profile=gauss(time,timezeropoint,timeomega) handled OK
+ 
+ Ending "laser" block
+ 
+ Beginning "control" block
+ 
+ 	Element nx=nx0 handled OK
+ 	Element ny=ny0 handled OK
+ 	Element t_end=tende handled OK
+ 	Element x_min=xmin0 handled OK
+ 	Element x_max=xmax0 handled OK
+ 	Element y_min=ymin0 handled OK
+ 	Element y_max=ymax0 handled OK
+ 	Element stdout_frequency=10 handled OK
+ 
+ Ending "control" block
+ 
+ Beginning "boundaries" block
+ 
+ 	Element bc_x_min=simple_laser handled OK
+ 	Element bc_x_max=open handled OK
+ 	Element bc_y_min=periodic handled OK
+ 	Element bc_y_max=periodic handled OK
+ 
+ Ending "boundaries" block
+ 
+ Beginning "output" block
+ 
+ 	Element dt_snapshot=10 * femto handled OK
+ 	Element grid=always handled OK
+ 	Element ex=always handled OK
+ 	Element ey=always handled OK
+ 	Element ez=always handled OK
+ 	Element bx=always handled OK
+ 	Element by=always handled OK
+ 	Element bz=always handled OK
+ 
+ Ending "output" block
+ 
+ Initial conditions complete and valid. Attempting to load particles
+ 
