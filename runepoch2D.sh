@@ -33,11 +33,11 @@ module load matlab
 echo plot_result | matlab
 
 # copies the input deck, output of matlab, log files and matlab function into the home directory
-mkdir $HOME/$namdir
+mkdir $gitdep/$namdir
 cp input.deck $gitdep/$namdir/
 cp deck.status $gitdep/$namdir/
 cp plot_result.m $gitdep/$namdir/
-cp output/* $gitdep/$namdir/
+rsync -r output/* $gitdep/$namdir/
 cd ..
 cp error.txt $gitdep/$namdir/
 cp epochlog.txt $gitdep/$namdir/
