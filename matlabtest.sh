@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -N 2D_pulseprop19
-#PBS -l walltime=02:00:00
+#PBS -l walltime=00:15:00
 #PBS -l select=4:ncpus=20:mem=3200mb
 #PBS -q pqplasma
 #PBS -e /export111/work/jg1916/laserpulse_Propagation/error_matalb.txt
