@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N 2D_pulseprop17
+#PBS -N 2D_pulseprop19
 #PBS -l walltime=02:00:00
 #PBS -l select=4:ncpus=20:mem=3200mb
 #PBS -q pqplasma
@@ -8,7 +8,7 @@
 
 # these are the names of the depositories
 # First is the name of the job, which is laying in the GIT depository as the format <namdir>.deck, second the GIT depository
-namdir=2D_pulseprop17
+namdir=2D_pulseprop19
 gitdep=$HOME/run_epoch
 
 # the job is run in the WORK depository
