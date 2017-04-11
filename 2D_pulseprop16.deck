@@ -30,7 +30,7 @@ begin:constant
   radius_of_curv = (-xfoc) * (1.0+(rayleigh_range/(-xfoc))^2)
   
   timeomega = timefwhm /(2.0*sqrt(loge(2.0)))
-  timezeropoint = -2.5*timeomega
+  timezeropoint = 2.5*timeomega
   
 # peak intensity at focus
   Ientry = I0*wai/wz

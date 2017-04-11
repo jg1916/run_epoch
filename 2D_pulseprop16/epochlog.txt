@@ -1,0 +1,245 @@
+ 
+ 
+ 
+ 
+        d########P  d########b        .######b          d#######  d##P      d##P
+       d########P  d###########    d###########     .##########  d##P      d##P 
+      ----        ----     ----  -----     ----   -----         ----      -- P  
+     d########P  d####,,,####P ####.      .#### d###P          d############P   
+    d########P  d#########P   ####       .###P ####.          d############P    
+   d##P        d##P           ####     d####   ####.         d##P      d##P     
+  d########P  d##P            ###########P     ##########P  d##P      d##P      
+ d########P  d##P              d######P          #######P  d##P      d##P       
+ 
+ The code was compiled with no compile time options
+ 
+ Welcome to EPOCH2D version 4.8.3   (commit v4.8.3-0-g826628c-dirty)
+ 
+ Code is running on 1 processing elements
+ 
+ Specify output directory
+ Processor subdivision is            1           1
+ 
+ *** WARNING ***
+ Unrecognised element "E" in input deck.
+ Code will continue to run, but behaviour is undefined
+ 
+ 
+ *** WARNING ***
+ Unrecognised element "test" in input deck.
+ Code will continue to run, but behaviour is undefined
+ 
+ Initial conditions complete and valid. Attempting to load particles
+ 
+ Equilibrium set up OK, running code
+Time  0.179155325888E-15 and iteration           0 after  0:00:00:00.00
+Time  0.358310651776E-14 and iteration          10 after  0:00:00:00.70
+Time  0.716621303552E-14 and iteration          20 after  0:00:00:00.77
+Time  0.107493195533E-13 and iteration          30 after  0:00:00:01.45
+Time  0.143324260710E-13 and iteration          40 after  0:00:00:01.54
+Time  0.179155325888E-13 and iteration          50 after  0:00:00:01.60
+Time  0.214986391065E-13 and iteration          60 after  0:00:00:02.29
+Time  0.250817456243E-13 and iteration          70 after  0:00:00:02.36
+Time  0.286648521421E-13 and iteration          80 after  0:00:00:02.42
+Time  0.322479586598E-13 and iteration          90 after  0:00:00:03.13
+Time  0.358310651776E-13 and iteration         100 after  0:00:00:03.20
+Time  0.394141716953E-13 and iteration         110 after  0:00:00:03.27
+Time  0.429972782131E-13 and iteration         120 after  0:00:00:03.98
+Time  0.465803847309E-13 and iteration         130 after  0:00:00:04.05
+Time  0.501634912486E-13 and iteration         140 after  0:00:00:04.12
+Time  0.537465977664E-13 and iteration         150 after  0:00:00:04.84
+Time  0.573297042841E-13 and iteration         160 after  0:00:00:04.91
+Time  0.609128108019E-13 and iteration         170 after  0:00:00:05.60
+Time  0.644959173196E-13 and iteration         180 after  0:00:00:05.68
+Time  0.680790238374E-13 and iteration         190 after  0:00:00:05.75
+Time  0.716621303552E-13 and iteration         200 after  0:00:00:07.11
+Time  0.752452368729E-13 and iteration         210 after  0:00:00:07.19
+Time  0.788283433907E-13 and iteration         220 after  0:00:00:07.25
+Time  0.824114499084E-13 and iteration         230 after  0:00:00:07.97
+Time  0.859945564262E-13 and iteration         240 after  0:00:00:08.04
+Time  0.895776629439E-13 and iteration         250 after  0:00:00:08.11
+Time  0.931607694617E-13 and iteration         260 after  0:00:00:08.81
+Time  0.967438759795E-13 and iteration         270 after  0:00:00:08.88
+Time  0.100326982497E-12 and iteration         280 after  0:00:00:08.95
+Time  0.103910089015E-12 and iteration         290 after  0:00:00:09.68
+Time  0.107493195533E-12 and iteration         300 after  0:00:00:09.75
+Time  0.111076302050E-12 and iteration         310 after  0:00:00:10.42
+Time  0.114659408568E-12 and iteration         320 after  0:00:00:10.50
+Time  0.118242515086E-12 and iteration         330 after  0:00:00:10.57
+Time  0.121825621604E-12 and iteration         340 after  0:00:00:11.25
+Time  0.125408728122E-12 and iteration         350 after  0:00:00:11.33
+Time  0.128991834639E-12 and iteration         360 after  0:00:00:11.40
+Time  0.132574941157E-12 and iteration         370 after  0:00:00:12.09
+Time  0.136158047675E-12 and iteration         380 after  0:00:00:12.17
+Time  0.139741154193E-12 and iteration         390 after  0:00:00:12.23
+Time  0.143324260710E-12 and iteration         400 after  0:00:00:13.01
+Time  0.146907367228E-12 and iteration         410 after  0:00:00:13.07
+Time  0.150490473746E-12 and iteration         420 after  0:00:00:13.77
+Time  0.154073580264E-12 and iteration         430 after  0:00:00:13.86
+Time  0.157656686781E-12 and iteration         440 after  0:00:00:13.93
+Time  0.161239793299E-12 and iteration         450 after  0:00:00:14.62
+Time  0.164822899817E-12 and iteration         460 after  0:00:00:14.70
+Time  0.168406006335E-12 and iteration         470 after  0:00:00:14.77
+Time  0.171989112852E-12 and iteration         480 after  0:00:00:15.49
+Time  0.175572219370E-12 and iteration         490 after  0:00:00:15.56
+Time  0.179155325888E-12 and iteration         500 after  0:00:00:15.63
+Time  0.182738432406E-12 and iteration         510 after  0:00:00:16.35
+Time  0.186321538923E-12 and iteration         520 after  0:00:00:16.42
+Time  0.189904645441E-12 and iteration         530 after  0:00:00:16.49
+Time  0.193487751959E-12 and iteration         540 after  0:00:00:17.22
+Time  0.197070858477E-12 and iteration         550 after  0:00:00:17.29
+Time  0.200653964994E-12 and iteration         560 after  0:00:00:17.99
+Time  0.204237071512E-12 and iteration         570 after  0:00:00:18.07
+Time  0.207820178030E-12 and iteration         580 after  0:00:00:18.14
+Time  0.211403284548E-12 and iteration         590 after  0:00:00:18.85
+Time  0.214986391065E-12 and iteration         600 after  0:00:00:18.92
+Time  0.218569497583E-12 and iteration         610 after  0:00:00:18.98
+Time  0.222152604101E-12 and iteration         620 after  0:00:00:19.68
+Time  0.225735710619E-12 and iteration         630 after  0:00:00:19.76
+Time  0.229318817137E-12 and iteration         640 after  0:00:00:19.83
+Time  0.232901923654E-12 and iteration         650 after  0:00:00:20.52
+Time  0.236485030172E-12 and iteration         660 after  0:00:00:20.58
+Time  0.240068136690E-12 and iteration         670 after  0:00:00:20.64
+Time  0.243651243208E-12 and iteration         680 after  0:00:00:21.39
+Time  0.247234349725E-12 and iteration         690 after  0:00:00:21.45
+Time  0.250817456243E-12 and iteration         700 after  0:00:00:22.16
+Time  0.254400562761E-12 and iteration         710 after  0:00:00:22.24
+Time  0.257983669279E-12 and iteration         720 after  0:00:00:22.31
+Time  0.261566775796E-12 and iteration         730 after  0:00:00:22.99
+Time  0.265149882314E-12 and iteration         740 after  0:00:00:23.07
+Time  0.268732988832E-12 and iteration         750 after  0:00:00:23.14
+Time  0.272316095350E-12 and iteration         760 after  0:00:00:23.86
+Time  0.275899201867E-12 and iteration         770 after  0:00:00:23.93
+Time  0.279482308385E-12 and iteration         780 after  0:00:00:24.00
+Time  0.283065414903E-12 and iteration         790 after  0:00:00:24.77
+Time  0.286648521421E-12 and iteration         800 after  0:00:00:24.83
+Time  0.290231627938E-12 and iteration         810 after  0:00:00:24.89
+Time  0.293814734456E-12 and iteration         820 after  0:00:00:25.62
+Time  0.297397840974E-12 and iteration         830 after  0:00:00:25.69
+Time  0.300980947492E-12 and iteration         840 after  0:00:00:26.38
+Time  0.304564054009E-12 and iteration         850 after  0:00:00:26.46
+Time  0.308147160527E-12 and iteration         860 after  0:00:00:26.53
+Time  0.311730267045E-12 and iteration         870 after  0:00:00:27.24
+Time  0.315313373563E-12 and iteration         880 after  0:00:00:27.32
+Time  0.318896480080E-12 and iteration         890 after  0:00:00:27.38
+Time  0.322479586598E-12 and iteration         900 after  0:00:00:28.09
+Time  0.326062693116E-12 and iteration         910 after  0:00:00:28.16
+Time  0.329645799634E-12 and iteration         920 after  0:00:00:28.23
+Time  0.333228906151E-12 and iteration         930 after  0:00:00:28.94
+Time  0.336812012669E-12 and iteration         940 after  0:00:00:29.01
+Time  0.340395119187E-12 and iteration         950 after  0:00:00:29.70
+Time  0.343978225705E-12 and iteration         960 after  0:00:00:29.78
+Time  0.347561332223E-12 and iteration         970 after  0:00:00:29.84
+Time  0.351144438740E-12 and iteration         980 after  0:00:00:30.54
+Time  0.354727545258E-12 and iteration         990 after  0:00:00:30.62
+Time  0.358310651776E-12 and iteration        1000 after  0:00:00:30.69
+Time  0.361893758294E-12 and iteration        1010 after  0:00:00:31.40
+Time  0.365476864811E-12 and iteration        1020 after  0:00:00:31.47
+Time  0.369059971329E-12 and iteration        1030 after  0:00:00:31.54
+Time  0.372643077847E-12 and iteration        1040 after  0:00:00:32.24
+Time  0.376226184365E-12 and iteration        1050 after  0:00:00:32.31
+Time  0.379809290882E-12 and iteration        1060 after  0:00:00:32.38
+Time  0.383392397400E-12 and iteration        1070 after  0:00:00:33.08
+Time  0.386975503918E-12 and iteration        1080 after  0:00:00:33.15
+Time  0.390558610436E-12 and iteration        1090 after  0:00:00:33.83
+Time  0.394141716953E-12 and iteration        1100 after  0:00:00:33.91
+Time  0.397724823471E-12 and iteration        1110 after  0:00:00:33.97
+Time  0.401307929989E-12 and iteration        1120 after  0:00:00:34.69
+Time  0.404891036507E-12 and iteration        1130 after  0:00:00:34.77
+Time  0.408474143024E-12 and iteration        1140 after  0:00:00:34.84
+Time  0.412057249542E-12 and iteration        1150 after  0:00:00:35.69
+Time  0.415640356060E-12 and iteration        1160 after  0:00:00:35.76
+Time  0.419223462578E-12 and iteration        1170 after  0:00:00:35.83
+Time  0.422806569095E-12 and iteration        1180 after  0:00:00:36.55
+Time  0.426389675613E-12 and iteration        1190 after  0:00:00:36.62
+Time  0.429972782131E-12 and iteration        1200 after  0:00:00:36.69
+Time  0.433555888649E-12 and iteration        1210 after  0:00:00:37.44
+Time  0.437138995166E-12 and iteration        1220 after  0:00:00:37.50
+Time  0.440722101684E-12 and iteration        1230 after  0:00:00:38.22
+Time  0.444305208202E-12 and iteration        1240 after  0:00:00:38.31
+Time  0.447888314720E-12 and iteration        1250 after  0:00:00:38.37
+Time  0.451471421238E-12 and iteration        1260 after  0:00:00:39.43
+Time  0.455054527755E-12 and iteration        1270 after  0:00:00:39.51
+Time  0.458637634273E-12 and iteration        1280 after  0:00:00:39.58
+Time  0.462220740791E-12 and iteration        1290 after  0:00:00:40.28
+Time  0.465803847309E-12 and iteration        1300 after  0:00:00:40.35
+Time  0.469386953826E-12 and iteration        1310 after  0:00:00:40.42
+Time  0.472970060344E-12 and iteration        1320 after  0:00:00:41.14
+Time  0.476553166862E-12 and iteration        1330 after  0:00:00:41.21
+Time  0.480136273380E-12 and iteration        1340 after  0:00:00:41.28
+Time  0.483719379897E-12 and iteration        1350 after  0:00:00:42.12
+Time  0.487302486415E-12 and iteration        1360 after  0:00:00:42.19
+Time  0.490885592933E-12 and iteration        1370 after  0:00:00:42.88
+Time  0.494468699451E-12 and iteration        1380 after  0:00:00:42.96
+Time  0.498051805968E-12 and iteration        1390 after  0:00:00:43.03
+Time  0.501634912486E-12 and iteration        1400 after  0:00:00:43.76
+Time  0.505218019004E-12 and iteration        1410 after  0:00:00:43.84
+Time  0.508801125522E-12 and iteration        1420 after  0:00:00:43.91
+Time  0.512384232039E-12 and iteration        1430 after  0:00:00:44.63
+Time  0.515967338557E-12 and iteration        1440 after  0:00:00:44.71
+Time  0.519550445075E-12 and iteration        1450 after  0:00:00:44.77
+Time  0.523133551593E-12 and iteration        1460 after  0:00:00:45.49
+Time  0.526716658110E-12 and iteration        1470 after  0:00:00:45.56
+Time  0.530299764628E-12 and iteration        1480 after  0:00:00:45.63
+Time  0.533882871146E-12 and iteration        1490 after  0:00:00:46.37
+Time  0.537465977664E-12 and iteration        1500 after  0:00:00:46.44
+Time  0.541049084181E-12 and iteration        1510 after  0:00:00:47.14
+Time  0.544632190699E-12 and iteration        1520 after  0:00:00:47.23
+Time  0.548215297217E-12 and iteration        1530 after  0:00:00:47.29
+Time  0.551798403735E-12 and iteration        1540 after  0:00:00:48.04
+Time  0.555381510253E-12 and iteration        1550 after  0:00:00:48.11
+Time  0.558964616770E-12 and iteration        1560 after  0:00:00:48.18
+Time  0.562547723288E-12 and iteration        1570 after  0:00:00:48.92
+Time  0.566130829806E-12 and iteration        1580 after  0:00:00:48.99
+Time  0.569713936324E-12 and iteration        1590 after  0:00:00:49.06
+Time  0.573297042841E-12 and iteration        1600 after  0:00:00:49.80
+Time  0.576880149359E-12 and iteration        1610 after  0:00:00:49.87
+Time  0.580463255877E-12 and iteration        1620 after  0:00:00:50.55
+Time  0.584046362395E-12 and iteration        1630 after  0:00:00:50.63
+Time  0.587629468912E-12 and iteration        1640 after  0:00:00:50.70
+Time  0.591212575430E-12 and iteration        1650 after  0:00:00:51.41
+Time  0.594795681948E-12 and iteration        1660 after  0:00:00:51.49
+Time  0.598378788466E-12 and iteration        1670 after  0:00:00:51.56
+Time  0.601961894983E-12 and iteration        1680 after  0:00:00:52.84
+Time  0.605545001501E-12 and iteration        1690 after  0:00:00:52.91
+Time  0.609128108019E-12 and iteration        1700 after  0:00:00:52.98
+Time  0.612711214537E-12 and iteration        1710 after  0:00:00:53.71
+Time  0.616294321054E-12 and iteration        1720 after  0:00:00:53.78
+Time  0.619877427572E-12 and iteration        1730 after  0:00:00:53.85
+Time  0.623460534090E-12 and iteration        1740 after  0:00:00:54.54
+Time  0.627043640608E-12 and iteration        1750 after  0:00:00:54.61
+Time  0.630626747125E-12 and iteration        1760 after  0:00:00:55.27
+Time  0.634209853643E-12 and iteration        1770 after  0:00:00:55.35
+Time  0.637792960161E-12 and iteration        1780 after  0:00:00:55.41
+Time  0.641376066679E-12 and iteration        1790 after  0:00:00:56.10
+Time  0.644959173196E-12 and iteration        1800 after  0:00:00:56.18
+Time  0.648542279714E-12 and iteration        1810 after  0:00:00:56.25
+Time  0.652125386232E-12 and iteration        1820 after  0:00:00:56.96
+Time  0.655708492750E-12 and iteration        1830 after  0:00:00:57.03
+Time  0.659291599268E-12 and iteration        1840 after  0:00:00:57.10
+Time  0.662874705785E-12 and iteration        1850 after  0:00:00:57.80
+Time  0.666457812303E-12 and iteration        1860 after  0:00:00:57.87
+Time  0.670040918821E-12 and iteration        1870 after  0:00:00:57.94
+Time  0.673624025339E-12 and iteration        1880 after  0:00:00:58.63
+Time  0.677207131856E-12 and iteration        1890 after  0:00:00:58.70
+Time  0.680790238374E-12 and iteration        1900 after  0:00:00:59.44
+Time  0.684373344892E-12 and iteration        1910 after  0:00:00:59.52
+Time  0.687956451410E-12 and iteration        1920 after  0:00:00:59.58
+Time  0.691539557927E-12 and iteration        1930 after  0:00:01:00.32
+Time  0.695122664445E-12 and iteration        1940 after  0:00:01:00.40
+Time  0.698705770963E-12 and iteration        1950 after  0:00:01:00.47
+Time  0.702288877481E-12 and iteration        1960 after  0:00:01:01.17
+Time  0.705871983998E-12 and iteration        1970 after  0:00:01:01.25
+Time  0.709455090516E-12 and iteration        1980 after  0:00:01:01.31
+Time  0.713038197034E-12 and iteration        1990 after  0:00:01:02.02
+Time  0.716621303552E-12 and iteration        2000 after  0:00:01:02.09
+Time  0.720204410069E-12 and iteration        2010 after  0:00:01:02.15
+Time  0.723787516587E-12 and iteration        2020 after  0:00:01:02.86
+Time  0.727370623105E-12 and iteration        2030 after  0:00:01:02.93
+Time  0.730953729623E-12 and iteration        2040 after  0:00:01:04.21
+Time  0.734536836140E-12 and iteration        2050 after  0:00:01:04.30
+Time  0.738119942658E-12 and iteration        2060 after  0:00:01:04.36
+Time  0.741703049176E-12 and iteration        2070 after  0:00:01:05.06
+Time  0.745286155694E-12 and iteration        2080 after  0:00:01:05.14
+Time  0.748869262211E-12 and iteration        2090 after  0:00:01:05.20
+ Final runtime of core = 1 minute, 5.23 seconds

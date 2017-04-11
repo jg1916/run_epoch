@@ -1,4 +1,4 @@
- EPOCH2D v4.8.3   v4.8.3-0-g826628c-dirty 1491627650.514               
+ EPOCH2D v4.8.3   v4.8.3-0-g826628c-dirty 1491870538.531               
  
 Deck state:  1
  
@@ -20,7 +20,7 @@ Deck state:  1
  	Element wz=wai * sqrt(1 + ((-xfoc)/rayleigh_range)^2) handled OK
  	Element radius_of_curv=(-xfoc) * (1.0+(rayleigh_range/(-xfoc))^2) handled OK
  	Element timeomega=timefwhm /(2.0*sqrt(loge(2.0))) handled OK
- 	Element timezeropoint=-2.5*timeomega handled OK
+ 	Element timezeropoint=2.5*timeomega handled OK
  	Element Ientry=I0*wai/wz handled OK
  	Element Eamp=sqrt(2*Ientry/(epsilon0*c)) handled OK
  
@@ -101,7 +101,7 @@ Deck state:  2
  	Element wz=wai * sqrt(1 + ((-xfoc)/rayleigh_range)^2) handled OK
  	Element radius_of_curv=(-xfoc) * (1.0+(rayleigh_range/(-xfoc))^2) handled OK
  	Element timeomega=timefwhm /(2.0*sqrt(loge(2.0))) handled OK
- 	Element timezeropoint=-2.5*timeomega handled OK
+ 	Element timezeropoint=2.5*timeomega handled OK
  	Element Ientry=I0*wai/wz handled OK
  	Element Eamp=sqrt(2*Ientry/(epsilon0*c)) handled OK
  
