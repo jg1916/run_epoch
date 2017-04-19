@@ -1,14 +1,14 @@
 #!/bin/bash
-#PBS -N 2D_pulseprop19
+#PBS -N 2D_pulseprop27
 #PBS -l walltime=00:15:00
-#PBS -l select=4:ncpus=20:mem=3200mb
+#PBS -l select=1:ncpus=20:mem=3200mb
 #PBS -q pqplasma
 #PBS -e /export111/work/jg1916/laserpulse_Propagation/error_matalb.txt
 #PBS -o /export111/work/jg1916/laserpulse_Propagation/output_matalb.txt
 
 # these are the names of the depositories
 # First is the name of the job, which is laying in the GIT depository as the format <namdir>.deck, second the GIT depository
-namdir=2D_pulseprop19
+namdir=2D_pulseprop27
 gitdep=$HOME/run_epoch
 
 # the job is run in the WORK depository
@@ -23,5 +23,14 @@ module load matlab
 echo plot_result | matlab
 
 # copies the input deck, output of matlab, log files and matlab function into the home directory
+# cp plot_result.m $gitdep/$namdir/
+# rsync -r output/* $gitdep/$namdir/
+mkdir $gitdep/$namdir
+cp input.deck $gitdep/$namdir/
+cp deck.status $gitdep/$namdir/
 cp plot_result.m $gitdep/$namdir/
 rsync -r output/* $gitdep/$namdir/
+cd ..
+cp error_matlab.txt $gitdep/$namdir/
+cp output_matlab.txt $gitdep/$namdir/
+
