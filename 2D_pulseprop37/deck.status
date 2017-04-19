@@ -1,4 +1,4 @@
- EPOCH2D v4.8.3   v4.8.3-0-g826628c-dirty 1492606182.367               
+ EPOCH2D v4.8.3   v4.8.3-0-g826628c-dirty 1492607113.466               
  
 Deck state:  1
  
@@ -41,7 +41,7 @@ Deck state:  1
  
  	Element move_window=T handled OK
  	Element window_v_x=c handled OK
- 	Element window_start_time=-c/xmin0 handled OK
+ 	Element window_start_time=-xmin0/c handled OK
  	Element bc_x_min_after_move=simple_outflow handled OK
  	Element bc_x_max_after_move=simple_outflow handled OK
  
@@ -123,7 +123,7 @@ Deck state:  2
  
  	Element move_window=T handled OK
  	Element window_v_x=c handled OK
- 	Element window_start_time=-c/xmin0 handled OK
+ 	Element window_start_time=-xmin0/c handled OK
  	Element bc_x_min_after_move=simple_outflow handled OK
  	Element bc_x_max_after_move=simple_outflow handled OK
  

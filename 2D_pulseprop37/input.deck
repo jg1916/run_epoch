@@ -54,7 +54,7 @@ end:laser
 begin:window
    move_window = T
    window_v_x = c
-   window_start_time = -c/xmin0
+   window_start_time = -xmin0/c
    bc_x_min_after_move = simple_outflow
    bc_x_max_after_move = simple_outflow
 end:window

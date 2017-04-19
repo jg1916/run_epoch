@@ -1,9 +1,3 @@
+mkdir: cannot create directory ‘2D_pulseprop37’: File exists
 rm: cannot remove ‘2D_pulseprop37/*.sdf’: No such file or directory
-application called MPI_Abort(MPI_COMM_WORLD, 14) - process 0
-{Index exceeds matrix dimensions.
-
-Error in plot_result (line 16)
-   filetmp=filenames{i};
-} 
-cp: cannot stat ‘error.txt’: No such file or directory
-cp: cannot stat ‘output.txt’: No such file or directory
+mkdir: cannot create directory ‘/home/jg1916/run_epoch/2D_pulseprop37’: File exists
