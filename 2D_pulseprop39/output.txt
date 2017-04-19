@@ -1,0 +1,65 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.538062) 64-bit (glnxa64)
+                             February 23, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> [Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+Timestep: 40
+Timestep: 50
+Timestep: 60
+Timestep: 70
+Timestep: 80
+Timestep: 90
+Timestep: 100
+Timestep: 110
+Timestep: 120
+Timestep: 130
+Timestep: 140
+Timestep: 150
+Timestep: 160
+Timestep: 170
+Timestep: 180
+Timestep: 190
+Timestep: 200
+Timestep: 210
+Timestep: 220
+Timestep: 230
+Timestep: 240
+Timestep: 250
+Timestep: 260
+Timestep: 270
+Timestep: 280
+Timestep: 290
+Timestep: 300
+Timestep: 310
+Timestep: 320
+Timestep: 330
+Timestep: 340
+Timestep: 350
+Timestep: 360
+Timestep: 370
+Timestep: 380
+Timestep: 390
+Timestep: 400
+Timestep: 410
+Timestep: 420
+Timestep: 430
+Timestep: 440
+Timestep: 450
+Timestep: 460
+Timestep: 470
+Timestep: 480
+Timestep: 490
+>>  
+Imperial College London HPC Service
+-----------------------------------
+Job 2D_pulsepro38, jobid 4103795.cx1b, username jg1916 - end of execution at 14:59:15 Wed 19/04/17 on system cx1-28-1-3
+ 
