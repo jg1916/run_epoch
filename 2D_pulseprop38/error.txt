@@ -1,0 +1,2 @@
+mkdir: cannot create directory ‘2D_pulseprop37’: File exists
+mkdir: cannot create directory ‘/home/jg1916/run_epoch/2D_pulseprop37’: File exists
