@@ -1,0 +1,29 @@
+ 
+ 
+ 
+ 
+        d########P  d########b        .######b          d#######  d##P      d##P
+       d########P  d###########    d###########     .##########  d##P      d##P 
+      ----        ----     ----  -----     ----   -----         ----      -- P  
+     d########P  d####,,,####P ####.      .#### d###P          d############P   
+    d########P  d#########P   ####       .###P ####.          d############P    
+   d##P        d##P           ####     d####   ####.         d##P      d##P     
+  d########P  d##P            ###########P     ##########P  d##P      d##P      
+ d########P  d##P              d######P          #######P  d##P      d##P       
+ 
+ The code was compiled with no compile time options
+ 
+ Welcome to EPOCH2D version 4.8.3   (commit v4.8.3-0-g826628c-dirty)
+ 
+ Code is running on 1 processing elements
+ 
+ Specify output directory
+ 
+ *** ERROR ***
+ Value "control" in element "n" is invalid and cannot be parsed.
+ Code will terminate
+ 
+ 
+ *** ERROR ***
+ The code cannot parse the input deck sufficiently to run.
+ Please read the output file "2D_pulseprop37/deck.status" to check for errors.
