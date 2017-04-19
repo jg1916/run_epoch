@@ -1,7 +1,7 @@
 function plot_result()
 
 addpath('/export111/work/jg1916/SDF/Matlab/');
-c=1e8;
+c=3e8;
 epsilon0=8.854e-12; 
 e=1.6e-19;  
 timern=datestr(now,'YYYY_mm_ddTHH-MM-SS');
@@ -33,7 +33,7 @@ for i=5:50
    
    title(timestr)
    colorbar;
-   I(j)=max(max(0.5*epsilon0*c.*ey.^2));
+   I(j)=max(max(0.5*epsilon0*c.*(ey.^2+ex.^2+ez.^2)));
 
    subplot(2,1,2)
    plot(1:j,I)
