@@ -1,0 +1,2 @@
+rm: cannot remove ‘2D_pulseprop43/*.sdf’: No such file or directory
+application called MPI_Abort(MPI_COMM_WORLD, 5) - process 0

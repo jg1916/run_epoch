@@ -1,0 +1,96 @@
+begin:constant
+  lambda0 = 0.8 * micron
+  I0 = 1.0e+15 * 1.0e4 # W/m^2
+  
+#Corresponding to a diameter at the accelerator exit D = 10.0 cm
+  wai = 15.0*micron
+  timefwhm = 20.0*femto
+
+# dimensions of the simulation box
+  xmin0 = 0 # -10 * micron
+  xmax0 = 20 * micron  # -xmin0
+  ymin0 = -50 * micron
+  ymax0 = -ymin0
+
+# nx0 and ny0 are the number of grid points in each direction
+#  nx0 = 2000
+#  ny0 = 2000
+  nx0 = ceil( 25*(xmax0-xmin0)/lambda0 )
+  ny0 = ceil( 20*(ymax0-ymin0)/lambda0 )
+
+
+# distance from the focus to the boundary
+  xfoc = xmin0 + 1e12
+  
+#   
+  tende =  600*femto
+
+  rayleigh_range = pi*wai^2/lambda0 # correct
+  wz = wai * sqrt(1 + (xfoc/rayleigh_range)^2) # correct
+  
+  radius_of_curv = xfoc * (1.0+(rayleigh_range/xfoc)^2) # correct
+  
+  timeomega = timefwhm /(2.0*sqrt(loge(2.0)))
+  timezeropoint = 2.5*timeomega
+  
+# peak intensity at focus
+  Ientry = I0*wai/wz
+# intensity where we enter the box
+  Eamp = sqrt(2*Ientry/(epsilon0*c))
+
+end:constant
+
+
+begin:laser
+  boundary = x_min
+#  amp = Eamp
+  intensity = Ientry
+  lambda = lambda0
+  phase = -2*pi/lambda0*((xfoc+(x-xmin0)) + y^2/(2*radius_of_curv))   # - 0.5*atan(x/rayleigh_range)
+  profile = gauss(y,0,wz)
+  t_profile = gauss(time,timezeropoint,timeomega)
+end:laser
+
+begin:window
+   move_window = T
+   window_v_x = c
+   window_start_time = timezeropoint-xmax/2/c # - xmin0/c
+   bc_x_min_after_move = simple_outflow
+   bc_x_max_after_move = simple_outflow
+end:window
+
+begin:control
+ nx = nx0
+ ny = ny0
+ # final time of simulation
+ t_end = tende
+ # size of domain
+ x_min = xmin0
+ x_max = xmax0
+ y_min = ymin0
+ y_max = ymax0
+ stdout_frequency = 10
+end:control
+
+
+begin:boundaries
+ bc_x_min = simple_laser
+ bc_x_max = open
+ bc_y_min = simple_outflow 
+ bc_y_max = simple_outflow
+end:boundaries
+
+
+begin:output
+ # number of timesteps between output dumps
+ dt_snapshot = 10 * femto
+
+ # Properties on grid
+ grid = always
+ ex = always
+ ey = always
+ ez = always
+ bx = always
+ by = always
+ bz = always
+end:output
